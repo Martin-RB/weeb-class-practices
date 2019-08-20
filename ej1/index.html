@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="jp"> 
+	<head>
+		<!-- Info of the page -->
+		<title>Title of the page</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!-- Page content -->
+		<h1>An title</h1>
+		<h2>An title</h2>
+		<h3>An title</h3>
+		<h4>An title</h4>
+		<h5>An title</h5>
+		<h6>An title</h6>
+		<p>Paragraph goes here </p>
+
+		<ol class="aitem">
+			<!-- numbered list -->
+			<li>XD</li>
+			<li>AAA</li>
+		</ol>
+		<ul class="aitem">
+			<!-- bulleted list -->
+			<li>XD</li>
+			<li>AAA</li>
+		</ul>
+
+		<select>
+			<option value="em_ex">Mexico</option>
+			<option value="baguette">France</option>
+			<option>Uruwai xd</option>
+		</select>
+
+		<form>
+			<fieldset>
+				<legend>The best fieldset of the page</legend> <!-- Title of fieldset -->
+				<label for="myInputXD">First name: </label> <!-- When you click on label. Focus goes to the for="X" X element -->
+				<input id="myInputXD" type="text" placeholder="Wryyy" name="">
+
+				<label> <!-- input inside a label works like the for attribute -->
+					First name:
+					<input type="text" placeholder="Wryyy" name="" value="jeje">
+				</label>
+
+				<label for="password">Password</label>
+				<input id="password" type="password">
+
+				<!--
+					date
+					tel
+					number
+					email
+				-->	
+
+				<br> <!-- Dont use this -->
+
+				<label for="HP">Harry Potter</label> 
+				<input type="radio" id="HP" name="movie">
+
+				<label for="LOTR">LotR</label> 
+				<input type="radio" id="LOTR" name="movie">
+
+				<br> <!-- Neither this -->
+
+				<label for="HP">Harry Potter</label> 
+				<input type="checkbox" id="HP" name="movie">
+
+				<label for="LOTR">LotR</label> 
+				<input type="checkbox" id="LOTR" name="movie">
+
+				<br> <!-- ... what do you think -->
+
+				<input type="submit" value="Submit"> <!-- Reloads page -->
+				<button type="submit">Submit</button>
+				<h1><a href="./index.html" target="_blank">Click here to go to the best page of the world</a></h1>
+				<!-- _blank: open on a new tab -->
+			</fieldset>
+		</form>
+		<textarea placeholder="Write your experience using this page">
+			Write your experience using this page
+		</textarea>
+		<img src="./assets/image.png" alt="buks"> <!-- Alt shows when image.png is not available -->
+
+		<!-- 	classes: camelCase_newWord
+				BEM: Later... :o
+		 -->
+	</body>
+</html>
