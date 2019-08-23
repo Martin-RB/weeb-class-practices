@@ -1,0 +1,5 @@
+body{
+	--color-yellow: #00FFFF;
+	color: var(--color-yellow);
+	background-color: var(--color-yellow);
+}
